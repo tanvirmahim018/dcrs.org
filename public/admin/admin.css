@@ -1,0 +1,7 @@
+body{padding:16px}#ws{max-width:1500px;margin:auto}#dash{padding:20px;margin-bottom:16px}
+.lg{max-width:400px;margin:10vh auto;padding:30px}
+.ws{display:grid;grid-template-columns:minmax(380px,520px) 1fr;gap:16px;align-items:start}
+.ed{padding:18px;max-height:calc(100vh - 40px);overflow:auto;position:sticky;top:12px}
+.pvw{position:sticky;top:12px;overflow:hidden;height:calc(100vh - 40px);padding:0}.pvw iframe{width:100%;height:100%;border:0;background:#03140d}
+@media(max-width:1000px){.ws{grid-template-columns:1fr}.ed{position:static;max-height:none}.pvw{position:static;height:75vh}}
+[hidden]{display:none!important}
